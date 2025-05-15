@@ -150,8 +150,8 @@ a.nav-link.text-nowrap {
   }
 }
 .logo { 
-  width: 25% !important;
-  margin-bottom: 2px;
+  width: 230px !important;
+  margin-bottom: 10px;
   transition: width 0.4s ease, transform 0.4s ease;
 }
 .navbarbag.scrolled .logo {
@@ -161,8 +161,6 @@ a.nav-link.text-nowrap {
   transition: width 0.4s ease, transform 0.4s ease;
 }
 
-@media screen and (min-device-width: 100px) and (max-device-width: 991px) {
+@media screen and (min-device-width: 100px) and (max-device-width:400px) {
   .logo {
-    width: 110px;
-  }
-}
+    width: 180px !important;}}
