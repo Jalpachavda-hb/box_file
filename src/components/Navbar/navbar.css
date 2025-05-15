@@ -1,21 +1,9 @@
-.logo {
-    width: 18%;
-    margin-bottom: 12px;
-}
-
-@media screen and (min-device-width: 10px) and (max-device-width: 991px) {
-  .logo {
-   
-    width: 110px;
-  }
-}
 
 
 .navbarbag {
   background-color: #106e61;
 }
 .navbar {
- 
 }
 nav.navbar.navbar-light {
   padding: 0px;
@@ -38,11 +26,7 @@ a.nav-link.text-nowrap {
   background-color: #106e61;
   position: sticky;
   top: 0;
-  z-index: 1020; 
-}
-.logo {
-  width: 18%;
-  margin-bottom: 12px;
+  z-index: 1020;
 }
 
 .navbarbag {
@@ -65,7 +49,6 @@ a.nav-link.text-nowrap {
   background: linear-gradient(to bottom, #148878, #11203c 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  
 }
 
 .navbarbag {
@@ -85,7 +68,6 @@ a.nav-link.text-nowrap {
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
-/* Adjust link colors when navbar is scrolled */
 .navbarbag.scrolled .nav-link {
   background: none;
   color: #106e61;
@@ -93,14 +75,6 @@ a.nav-link.text-nowrap {
 }
 
 /* Optional: Adjust logo size or color on scroll */
-.navbarbag .logo {
-  transition: width 0.4s ease, transform 0.4s ease;
-}
-
-.navbarbag.scrolled .logo {
-  transform: scale(0.9);
-}
-
 
 
 /* Gradient Text for default nav links */
@@ -118,35 +92,30 @@ a.nav-link.text-nowrap {
   -webkit-text-fill-color: #106e61 !important;
 }
 
-
-
-
 .navbarbag {
   background-color: #106e61;
   position: sticky;
   top: 0;
   z-index: 1020;
-  transition: background-color 0.4s ease, box-shadow 0.4s ease, padding-top 0.4s ease;
+  transition: background-color 0.4s ease, box-shadow 0.4s ease,
+    padding-top 0.4s ease;
 }
-
 
 .navbarbag.home-page {
   padding-top: 25px !important;
 }
 
 
-/* When scrolled */
 .navbarbag.scrolled {
   background-color: white !important;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
-
 .nav-link {
   background: linear-gradient(to bottom, #148878, #11203c 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-font-weight: 500;
+  font-weight: 500;
   transition: all 0.4s ease;
 }
 
@@ -156,30 +125,15 @@ font-weight: 500;
   -webkit-text-fill-color: #106e61 !important;
 }
 
-
-
-@media screen and (max-width: 991px) {
-  .logo {
-    width: 110px;
-  }
-}
-
-.navbarbag.scrolled .logo {
-  transform: scale(0.9);
-}
-
 .navbarbag {
   background-color: #106e61;
   position: sticky;
   top: 0;
   z-index: 1020;
   box-shadow: none !important;
-  transition: background-color 0.4s ease, box-shadow 0.4s ease, padding-top 0.4s ease;
+  transition: background-color 0.4s ease, box-shadow 0.4s ease,
+    padding-top 0.4s ease;
 }
-
-
-
-
 
 .navbarbag.scrolled {
   background-color: white !important;
@@ -187,21 +141,28 @@ font-weight: 500;
   padding-top: 0px !important;
 }
 
+/* ====logo====== */
 
-.logo {
-  /* width: 18%; */
-  width: 25%;
-  margin-bottom: 12px;
-  transition: width 0.4s ease, transform 0.4s ease;
-}
 
 @media screen and (max-width: 991px) {
   .logo {
-    width: 142px;
+    width: 142px !important;
   }
 }
-
+.logo { 
+  width: 25% !important;
+  margin-bottom: 2px;
+  transition: width 0.4s ease, transform 0.4s ease;
+}
 .navbarbag.scrolled .logo {
   transform: scale(0.9);
 }
+.navbarbag .logo {
+  transition: width 0.4s ease, transform 0.4s ease;
+}
 
+@media screen and (min-device-width: 100px) and (max-device-width: 991px) {
+  .logo {
+    width: 110px;
+  }
+}
