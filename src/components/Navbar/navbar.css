@@ -189,14 +189,15 @@ font-weight: 500;
 
 
 .logo {
-  width: 18%;
+  /* width: 18%; */
+  width: 25%;
   margin-bottom: 12px;
   transition: width 0.4s ease, transform 0.4s ease;
 }
 
 @media screen and (max-width: 991px) {
   .logo {
-    width: 110px;
+    width: 142px;
   }
 }
 
