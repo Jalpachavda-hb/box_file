@@ -18,7 +18,7 @@ const About = () => {
       }}
     >
     
-      <div className="container">
+      <div className="container animated-content">
         <div className="row align-items-center">
           <div className="col-md-6 col-lg-6">
             <div className="hero-content-left  animated-content position-relative z-index text-white">
