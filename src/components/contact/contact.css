@@ -2,6 +2,26 @@
      background-image: url("../../assets/Images/contactmain.jpg");
 } */
 
+.form-item textarea::placeholder {
+  color: #888; 
+  font-style: italic;
+  font-size: 14px; 
+  opacity: 1;
+}
+.form-item input::placeholder {
+  color: #888; 
+  font-style: italic;
+  font-size: 14px; 
+  opacity: 1;
+}
+.error-text {
+  color: red;
+  font-size: 13px;
+  margin-top: -26px;
+  text-align: right;
+  font-style: italic;
+}
+
 #contact {
   /* background-color: #6a9ac4; */
   /* background-image: linear-gradient(to bottom, rgba(20, 136, 120, 0.8), rgba(5, 34, 30, 0.8)); */
@@ -43,6 +63,12 @@
 .contact-links_1 {
     width: 100% !important;
 }
+.contact-img {
+ 
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 0px !important;
+}
+
 
 
   .contact-links {
@@ -92,7 +118,9 @@ h2 {
   transition: 0.2s;
   user-select: none;
 }
-
+.form-item {
+    margin-bottom: 20px;
+}
 .contactimg:hover {
   transform: scale(1.1, 1.1);
 }

@@ -42,7 +42,7 @@
   z-index: 8;
   left: calc(50% + 160px);
   transform: translateX(-50%) scale(0.8) rotateY(-1deg);
-  filter: blur(3px);
+  filter: blur(2px);
   opacity: 1;
 }
 
@@ -51,7 +51,7 @@
   z-index: 6;
   left: calc(50% + 320px);
   transform: translateX(-50%) scale(0.6) rotateY(-2deg);
-  filter: blur(6px);
+  filter: blur(2px);
   opacity: 1;
 }
 .phone-frame-wrapper img {
@@ -67,7 +67,7 @@
   z-index: 8;
   left: calc(50% - 160px);
   transform: translateX(-50%) scale(0.8) rotateY(1deg);
-  filter: blur(3px);
+  filter: blur(2px);
   opacity: 1;
 }
 
@@ -76,7 +76,7 @@
   z-index: 6;
   left: calc(50% - 320px);
   transform: translateX(-50%) scale(0.6) rotateY(2deg);
-  filter: blur(6px);
+  filter: blur(2px);
   opacity: 1;
 }
 
@@ -151,31 +151,9 @@
   justify-content: center;
   align-items: center;
 }
-/* 
-@media (max-width: 737px) {
-  .image-card.prev2 {
-    z-index: 6;
-    left: calc(30% - 320px);
-    transform: translateX(-50%) scale(0.6) rotateY(2deg);
 
-    opacity: 1;
-  }
-  .image-card.next {
-    z-index: 8;
-    left: calc(50% + 160px);
-    transform: translateX(-102%) scale(0.8) rotateY(-3deg);
-    filter: blur(0px);
-    opacity: 1;
-  }
-} */
 @media screen and (min-device-width: 200px) and (max-device-width: 700px) {
-  /* .image-card.next {
-    z-index: 8;
-    left: calc(50% + 160px);
-    transform: translateX(-102%) scale(0.8) rotateY(-3deg);
-    filter: blur(0px);
-    opacity: 1;
-  } */
+
   .image-card.prev2 {
     z-index: 6;
     left: calc(30% - 320px);
@@ -187,7 +165,7 @@
     z-index: 8;
     left: calc(50% + 160px);
     transform: translateX(-50%) scale(0.8) rotateY(-3deg);
-    filter: blur(3px);
+    filter: blur(2px);
     opacity: 1;
   }
   .image-card.next2 {
@@ -253,13 +231,3 @@
   z-index: 10;
   pointer-events: auto;
 }
-/* ======================== */
-
-/* Remove those styles on mobile */
-/* @media (max-width: 767px) {
-  .phone-frame-wrapper {
-    border: none;
-    border-radius: 0;
-    padding: 0;
-  }
-} */

@@ -5,11 +5,11 @@ import { MdOutlineSecurity } from "react-icons/md";
 import { FaUserTag } from "react-icons/fa";
 import { MdOutlinePhoneAndroid } from "react-icons/md";
 import { AiFillFileAdd } from "react-icons/ai";
-import { AiOutlineSelect } from "react-icons/ai";
+import { LuFileBox } from "react-icons/lu";
 const Feature = () => {
   return (
     <>
-      <section className="container mt-5" id="feature" >
+      <section className="container " id="feature" >
         <div className="hero-content-left  animated-content position-relative z-index text-white">
           <h4 className="page-tital">Feature</h4>
           <p className="contain-colur">
@@ -19,7 +19,7 @@ const Feature = () => {
       </section>
       <section
         id="target-audience"
-        className="advertisers-service-sec pt-5 pb-5"
+        className="advertisers-service-sec pt-2 pb-5"
       >
         <div className="container">
           <div className="row mt-5 mt-md-4 row-cols-1 row-cols-sm-1 row-cols-md-3 justify-content-center">
@@ -96,7 +96,7 @@ const Feature = () => {
               <div className="service-card">
                 <div className="icon-wrapper">
                   {/* <img src={card} alt="card" className="card-img" /> */}
-                  <AiOutlineSelect />
+                <LuFileBox />
                 </div>
                 <h3>Choose Traditional Box File Themes</h3>
                 <p>

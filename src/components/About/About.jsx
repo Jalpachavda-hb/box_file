@@ -23,11 +23,12 @@ const Home = () => {
         <div className="row  ">
           <div className="col-lg-6 col-md-12 col-12">
             <div className="animated-down paraabout ">
-              <p className="mt-4 contain-colur ">
+              {/* <p className="mt-4 contain-colur ">
                 Digital organization with a touch of tradition.{" "}
-              </p>
+              </p> */}
 
-              <p>
+              <p className="mt-4">
+                <b>Digital organization with a touch of tradition:</b><br></br>
                 Smart Box File was born from a simple idea: to bring the
                 familiarity of traditional box file organization into the
                 digital world. In a time where everything is stored online, we

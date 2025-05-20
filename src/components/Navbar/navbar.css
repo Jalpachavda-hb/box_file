@@ -124,7 +124,9 @@ a.nav-link.text-nowrap {
   background: none !important;
   -webkit-text-fill-color: #106e61 !important;
 }
-
+li.nav-item {
+    margin: 10px;
+}
 .navbarbag {
   background-color: #106e61;
   position: sticky;
