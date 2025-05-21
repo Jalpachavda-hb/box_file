@@ -84,6 +84,7 @@ import 'react-toastify/dist/ReactToastify.css';
 const Contact = () => {
   const [formData, setFormData] = useState({
     name: "",
+    phone: "",
     email: "",
     message: "",
   });
@@ -104,6 +105,11 @@ const Contact = () => {
   const validate = () => {
     const newErrors = {};
     if (!formData.name.trim()) newErrors.name = "* Name is required";
+    if (!formData.phone.trim()) {
+      newErrors.phone = "* Phone number is required";
+    } else if (!/^\d{10}$/.test(formData.phone)) {
+      newErrors.phone = "* Phone number must be 10 digits";
+    }
     if (!formData.email.trim()) {
       newErrors.email = "* Email is required";
     } else if (!/\S+@\S+\.\S+/.test(formData.email)) {
@@ -126,7 +132,7 @@ const Contact = () => {
 
         if (res.data.success) {
           toast.success(res.data.message); // ✅ Toastr-style success
-          setFormData({ name: "", email: "", message: "" });
+          setFormData({ name: "", phone: "", email: "", message: "" });
           setErrors({});
         } else {
           toast.error(res.data.message || "Submission failed."); // ❌ Toastr-style error
@@ -169,6 +175,19 @@ const Contact = () => {
                 />
                 <label className="cardlabal mb-1">Name: <sup>*</sup></label>
                 {errors.name && <p className="error-text">{errors.name}</p>}
+              </div>
+
+              <div className="form-item">
+                <input
+                  type="number"
+                  className="mt-2"
+                  placeholder="Enter Your Contact Number"
+                  name="phone"
+                  value={formData.phone}
+                  onChange={handleChange}
+                />
+                <label className="cardlabal mb-1">Contct Number: <sup>*</sup></label>
+                {errors.phone && <p className="error-text">{errors.phone}</p>}
               </div>
 
               <div className="form-item">
