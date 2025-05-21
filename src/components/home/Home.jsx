@@ -9,15 +9,13 @@ import homefigma from "../../assets/Images/home_figma.png";
 const About = () => {
   return (
     <>
-      <nav className="navbar navbar-light" ></nav>
+      <nav className="navbar navbar-light"></nav>
       <section
         className="hero-equal-height  gradient-overlay"
         style={{
           background: `url(${bgImage}) no-repeat top center / cover`,
-
         }}
       >
-
         <div className="container animated-content">
           <div className="row align-items-center">
             <div className="col-md-6 col-lg-6">
@@ -35,12 +33,12 @@ const About = () => {
                   “Digitally Organize Your Files in Style”
                 </h1>
                 <p className="lead animated-content homecontain text-start">
-                  "Smart Box File is more than just a digital file organizer—it's
-                  a personal, customizable filing system that mirrors the classic
-                  box files you grew up with. Choose from a variety of traditional
-                  themes and effortlessly store, manage, and categorize your
-                  important documents. Stay organized while enjoying a modern
-                  twist on nostalgia."
+                  "Smart Box File is more than just a digital file
+                  organizer—it's a personal, customizable filing system that
+                  mirrors the classic box files you grew up with. Choose from a
+                  variety of traditional themes and effortlessly store, manage,
+                  and categorize your important documents. Stay organized while
+                  enjoying a modern twist on nostalgia."
                 </p>
                 <div className="hero-btns mt-4">
                   {/* <button className="btn solid-white-btn animated-down mr-lg-3 mb-5 ">
@@ -49,6 +47,19 @@ const About = () => {
                     <MdKeyboardDoubleArrowRight />
                   </span>
                 </button> */}
+                  <button
+                    className="btn solid-white-btn animated-down mr-lg-3 mb-5"
+                    onClick={() => {
+                      document
+                        .getElementById("download")
+                        ?.scrollIntoView({ behavior: "smooth" });
+                    }}
+                  >
+                    Explore More
+                    <span className="btn-icon">
+                      <MdKeyboardDoubleArrowRight />
+                    </span>
+                  </button>
                 </div>
               </div>
             </div>
@@ -63,4 +74,3 @@ const About = () => {
 };
 
 export default About;
-

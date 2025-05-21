@@ -85,8 +85,8 @@ function Navbar() {
               </span>
             </li>
             <li className="nav-item">
-              <span onClick={() => handleNavigateScroll("/screenshots")} className="nav-link text-nowrap" style={{ cursor: "pointer" }}>
-                Screenshots
+              <span onClick={() => handleNavigateScroll("/VisualGuide")} className="nav-link text-nowrap" style={{ cursor: "pointer" }}>
+                Visual Guide
               </span>
             </li>
             <li className="nav-item">

@@ -1,3 +1,8 @@
 .footer{
  background-image: linear-gradient(to bottom, #148878,#11203C);
 }
+
+
+.footer-text{
+      font-size: 15px;
+}

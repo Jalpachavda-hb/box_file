@@ -1,20 +1,11 @@
-/* .hero-equal-height {
-  position: relative;
- 
-  display: flex;
-  height: 90vh;
-  flex-direction: column;
-  justify-content: center;
 
-  width: 100%;
-} */
 .hero-equal-height {
   position: relative;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center; /* optional: centers content horizontally */
-  min-height: 80vh; /* Adjust based on design needs */
+  min-height: 90vh; /* Adjust based on design needs */
   width: 100%;
   padding: 2rem 1rem; /* adds space inside the container for small screens */
   box-sizing: border-box;

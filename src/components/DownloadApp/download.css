@@ -1,0 +1,15 @@
+img.download {
+    vertical-align: middle !important;
+width: 100%;
+padding: 10px;
+
+}
+.download-app-icon {
+  margin-top: 20px;
+}
+.download-app-icon a img {
+  transition: transform 0.3s ease;
+}
+.download-app-icon a img:hover {
+  transform: scale(1.05);
+}

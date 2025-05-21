@@ -7,7 +7,7 @@ const Home = () => {
   return (
     <section
       id="about"
-      className="hero-equal-height mt-5 ptb "
+      className="hero-equal-height"
       style={{
         background: `url(${bgImage}) no-repeat top center / cover`,
       }}

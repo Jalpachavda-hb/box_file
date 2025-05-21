@@ -200,11 +200,11 @@ const ScreenshotsSection = () => {
   };
 
   return (
-    <section id="screenshorts">
+    <section id="VisualGuide">
       <div className="container ">
         <div className="row align-items-center">
           <div className="hero-content-left animated-content position-relative z-index text-white">
-            <h4 className="page-tital mt-1">Screenshots</h4>
+            <h4 className="page-tital mt-1">Visual Guide</h4>
             <p className="contain-colur">“A quick look at Smart Box File in action”</p>
           </div>
         </div>
