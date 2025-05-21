@@ -34,7 +34,7 @@ const Download = () => {
               </p> */}
 
               <p className="contain-download">
-              <p className="">
+            
                 In a world full of digital clutter, Smart Box File brings back
                 the charm of traditional file organization — right on your
                 phone. Inspired by classic box files, it offers a fresh,
