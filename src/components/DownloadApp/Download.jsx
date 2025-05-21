@@ -10,7 +10,7 @@ const Download = () => {
     <section
       id="about"
       className="hero-equal-height"
-   
+
     >
       <div className="container ">
         <div className="hero-content-left mb-5 animated-content position-relative z-index text-white">
@@ -25,15 +25,16 @@ const Download = () => {
           </div>
 
           <div className="col-lg-7 col-md-12 col-12"
-             style={{
-        background: `url(${downloadbg}) no-repeat top center / cover`,
-      }}>
+            style={{
+              background: `url(${downloadbg}) no-repeat top center / cover`,
+            }}>
             <div className="animated-down paraabout ">
               {/* <p className="mt-4 contain-colur ">
                 Digital organization with a touch of tradition.{" "}
               </p> */}
 
               <p className="contain-download">
+              <p className="">
                 In a world full of digital clutter, Smart Box File brings back
                 the charm of traditional file organization — right on your
                 phone. Inspired by classic box files, it offers a fresh,
