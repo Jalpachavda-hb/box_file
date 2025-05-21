@@ -210,10 +210,13 @@ textarea:valid+label {
   filter: sepia(0.5);
 }
 
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 992px) {
   h2 {
     font-size: clamp(40px, 10vw, 60px);
   }
+.form-item {
+    margin-top: 20px;
+}
 }
 
 @media only screen and (max-width: 400px) {
@@ -277,3 +280,7 @@ textarea:valid+label {
     opacity: 1;
   }
 }
+
+/* .form-item {
+    margin-top: 20px;
+} */

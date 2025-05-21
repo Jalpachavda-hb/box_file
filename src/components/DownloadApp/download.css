@@ -13,3 +13,6 @@ padding: 10px;
 .download-app-icon a img:hover {
   transform: scale(1.05);
 }
+.contain-download{
+  padding: 10px;
+}
