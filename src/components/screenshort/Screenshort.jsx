@@ -165,7 +165,7 @@
 // };
 
 // export default ScreenshotsSection;
-import React, { useState, useRef } from "react";
+import React, { useState, useRef, useEffect } from "react";
 import "./ss.css";
 import ss1 from "../../assets/Images/ss/01.png";
 import ss2 from "../../assets/Images/ss/02.png";
@@ -198,6 +198,14 @@ const ScreenshotsSection = () => {
     if (deltaX > 50) nextImage();
     else if (deltaX < -50) prevImage();
   };
+
+  useEffect(() => {
+  const interval = setInterval(() => {
+    setCurrentIndex((prev) => (prev + 1) % images.length);
+  }, 3000); // change 3000 to any interval in ms
+
+  return () => clearInterval(interval); // cleanup on unmount
+}, []);
 
   return (
     <section id="visual-guide">
