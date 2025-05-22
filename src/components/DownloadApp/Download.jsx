@@ -34,7 +34,7 @@ const Download = () => {
               </p> */}
 
               <p className="contain-download">
-            
+
                 In a world full of digital clutter, Smart Box File brings back
                 the charm of traditional file organization — right on your
                 phone. Inspired by classic box files, it offers a fresh,
@@ -42,7 +42,7 @@ const Download = () => {
                 to personal records, making file storage feel simple, stylish,
                 and enjoyable
               </p>
-              <p>
+              <p className="contain-download">
                 Customize your digital boxes with a variety of classic themes
                 like cardboard, leather, and wood, giving each one a unique look
                 and feel. No more boring blue folders — now your storage
@@ -51,7 +51,7 @@ const Download = () => {
                 focus on what matters most: staying organized in a way that
                 feels natural, warm, and satisfying.
               </p>
-              <p>
+              <p className="contain-download">
                 Ready to transform the way you manage files? Download the Smart
                 Box File app today on Google Play or the App Store, and carry
                 the power of beautifully organized storage wherever you go. Your
@@ -59,9 +59,9 @@ const Download = () => {
               </p>
             </div>
 
-            <div className="download-app-icon mt-4 d-flex gap-3">
+            <div className="download-app-icon mt-4 d-flex gap-3 contain-download">
               <a
-                href="https://play.google.com/store/apps/details?id=com.fairytale.smartboxfile"
+                href="https://play.google.com/store/apps/details?id=com.fairytalesoftware.smartboxfile"
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -72,7 +72,7 @@ const Download = () => {
                 />
               </a>
 
-              <a
+              {/* <a
                 href="https://apps.apple.com/app/id1234567890"
                 target="_blank"
                 rel="noopener noreferrer"
@@ -82,7 +82,7 @@ const Download = () => {
                   alt="Download on the App Store"
                   width="140px"
                 />
-              </a>
+              </a> */}
             </div>
           </div>
         </div>
